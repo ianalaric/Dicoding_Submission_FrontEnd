@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,500&display=swap');
+
+:root{
+    --marginHead: 2vh 20vw;
+    --marginSmall: 2vh 5vw;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    display: block;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.button {
+    position: relative;
+
+}
+
+nav {
+    background-color: #c7003800;
+    margin-right: 50px;
+    height: 10vh;
+    position: fixed;
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
+    margin: var(--marginHead);
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 32px;
+    transition: 0.5s;
+}
+
+.button a:hover {
+    letter-spacing: 5px;
+    color: bisque;
+}
+
+.navbar {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 1;
+    
+}
+
+.list {
+    float: right;
+    margin-right: 20px;
+}
+
+.list ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul li {
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+li a {
+    padding: 20px;
+
+}
+.list li a {
+    text-decoration: none;
+    transition: 0.5s;
+    color: white;
+}
+
+.list li a:hover {
+    background: skyblue;
+    letter-spacing: 5px;
+}
+
+.landing {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.landing h1 {
+    position: absolute;
+    top: 33%;
+    left: 16%;
+    font-size: 64px;
+    color: white;
+    font-family: 'Festive', cursive;
+}
+
+.landing a {
+    font-family:'Poppins', sans-serif;
+    font-size: 24px;
+    position: absolute;
+    color: white;
+    top: 55%;
+    left: 7%;
+    background: rgb(119, 84, 243);
+    text-decoration: none;
+    border: none;
+    padding: 5px 10px;
+    transition: 0.5s;
+    letter-spacing: 2px;
+}
+
+.landing a:hover {
+    letter-spacing: 5px;
+    background: lightpink;
+}
+
+.about {
+    display: flex;
+    background: #162c3b;
+}
+.gambar {
+    width: 100;
+}
+
+.gambar img  {
+    width: 300px;
+    padding: 100px;
+}
+
+.content h1{
+    font-family: 'Fuggles', cursive;
+    color: white;
+    font-size: 50px;
+    margin-left: 50px;
+}
+
+.content article {
+    color: white;
+    padding: 0 50px;
+}
+
+.content {
+    background: rgb(247, 70, 70);
+    margin: 50px 30px 0 0px;
+    min-width: 1000px;
+}
+
+article .puki {
+    display: flex;
+    align-items: center;
+}
+article .bar {
+    height: 10px;
+    width: 250px;
+    background: rgb(170, 255, 170);
+    margin: 0 30px 0 0;
+    padding: 0;
+    position: absolute;
+    border-radius: 10px;
+    z-index: 2;
+    position: relative;
+
+}
+
+.content article span {
+ position: relative;
+}
+
+.services {
+	background: #162c3b;
+}
+
+.hr {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    justify-content: center;
+    
+}
+
+.heading.white {
+	color: #fff;
+    text-align: center;
+    padding: 30px 20px 0;
+    font-size: 32px;
+    
+}
+
+.services .contentSr {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+.services .contentSr a {
+    text-decoration: none;
+}
+
+.services .contentSr .servicesBx {
+	padding: 40px 20px;
+	background: rgb(247, 70, 70);
+	color: #fff;
+	max-width: 340px;
+	margin: 20px;
+	text-align: center;
+	transition: 0.5s;
+	min-width: 340px;
+}
+
+.services .contentSr .servicesBx:hover {
+	background: #164e74;
+	text-decoration: none;
+    letter-spacing: 2px;
+}
+
+.services .contentSr .servicesBx img {
+	max-width: 80px;
+	filter: invert(1);
+}
+
+.services .contentSr .servicesBx h2 {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+
+@media(max-width: 700px)
+{
+    .button a {
+        margin: var(--marginSmall);
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
